@@ -6,23 +6,34 @@
 </head>
 <body>
     <div>
-        <h1>Travel form for Classroom</h1>
+        <h1>APPLICATION FOR SPECIALLY ABLED PEOPLE</h1>
         <form action="form.php">
-            <input type="text" placeholder="Enter your name"><br>
+            <input type="text" placeholder="Enter your name"><br><br>
+
+            <div> Select your disability level</div>
+
             <label for="Sectionida">
-            <input type="radio" value="Section a" name="Section" id="Sectionida">SectionA
+            <input type="radio" value="Section a" name="Section" id="Sectionida">LEVEL-1
         </label><br>
         <label for="Sectionidb">
-            <input type="radio" value="Section b" name="Section" id="Sectionidb">SectionB
+            <input type="radio" value="Section b" name="Section" id="Sectionidb">LEVEL-2
         </label>
     <br>
     <label for="Sectionidc">
-        <input type="radio" value="Section b" name="Section" id="Sectionidc">SectionB
+        <input type="radio" value="Section b" name="Section" id="Sectionidc">LEVEL-3
     </label>
-<br>
-<input type="checkbox" name="Want to subscribe for food" id="foodcanteen" class="red">Want to subscribe for food
+<br><br><hr>
+<input type="checkbox" name="Would you like to rate us" id="foodcanteen" class="red">
+<label for="foodcanteen">Would you like to rate us</label><br>
+<select name ="rating" id="rate">
+    <option value="rate">* * * * *</option>
+    <option value="rate">* * * * </option>
+    <option value="rate">* * * </option>
+    <option value="rate">* * </option>
+</select>
+<!-- for is used in above as if we click on any place near that it will be selected -->
     <br>
-            <input type="password" >
+          <hr> feedback<br> <input type="text" >
 
         </form>
     </div>
