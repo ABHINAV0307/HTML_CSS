@@ -1,2 +1,2 @@
 # HTML_CSS
-project1:https://anime-abhi.netlify.app/
+project1:https://anime-ab.netlify.app/
