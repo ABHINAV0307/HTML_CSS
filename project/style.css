@@ -1,0 +1,54 @@
+.hero_image{
+    background: url(girl.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.hero_wrapper{
+    color: rgb(8, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+   .hero_wrapper h1{
+font-size: 2.4rem;
+text-align: center;
+   }
+   .form_code{
+    text-align: center;
+   }
+.form_code .post_code{
+    display:block;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 2rem;
+padding: .6rem;
+border: none;
+outline: none;
+}
+.form_code button{
+    width: 40%;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: rgb(25, 213, 227);
+    padding: .6rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+outline: none;
+}
+.hero_wrapper {
+    border:2px;
+    background-color: rgba(89, 224, 239, 0.5);
+border-width: 10px;
+padding-top: 3rem;
+padding-left: 3rem;
+padding-bottom:3rem;
+padding-right: 3rem;
+
+}

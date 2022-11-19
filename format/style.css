@@ -1,13 +1,6 @@
-body {
-    background-color: rgb(148, 214, 236);
-  }
-  
-  h1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-  }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
+.hero_image{
+  background-color: red;
+}
+body{
+    background-color: aquamarine;
+}
