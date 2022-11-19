@@ -1,3 +1,7 @@
+/*utility classes*/
+.img-responsive{
+max-width: 100%;
+}
 .hero_image{
     background: url(girl.jpg) no-repeat;
     background-size: cover;
@@ -42,7 +46,7 @@ outline: none;
     border: none;
 outline: none;
 }
-.hero_wrapper {
+/* .hero_wrapper {
     border:2px;
     background-color: rgba(89, 224, 239, 0.5);
 border-width: 10px;
@@ -51,4 +55,20 @@ padding-left: 3rem;
 padding-bottom:3rem;
 padding-right: 3rem;
 
+} */
+.hero_wrapper span{
+     margin-left: 5rem;
+     display: inline-block;
+     margin-bottom: 1rem;
+}
+
+.product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list{
+    float: left;
+    width: 33.33%;
 }
