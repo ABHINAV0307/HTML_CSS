@@ -1,2 +1,2 @@
 # HTML_CSS
-https://abhinav0307.github.io/HTML_CSS/
+project1:https://anime-ab.netlify.app/
